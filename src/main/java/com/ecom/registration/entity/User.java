@@ -11,6 +11,4 @@ public class User extends Account{
     private String mobile;
     private int age;
 
-
-
 }
