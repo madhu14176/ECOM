@@ -13,7 +13,7 @@ public class AuthController {
 
     private final AccountService accountService;
 
-    @PostMapping("/register")
+    @PostMapping("/user")
     public ResponseEntity<String> register(@RequestBody RegisterRequest request) {
         return accountService.register(request);
     }

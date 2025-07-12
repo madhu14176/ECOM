@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 
 @Data
 @Entity
+@Table(name = "accounts")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "role", discriminatorType = DiscriminatorType.STRING)
 public abstract class Account {
