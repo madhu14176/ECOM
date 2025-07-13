@@ -10,7 +10,6 @@ import lombok.EqualsAndHashCode;
 @Entity
 @DiscriminatorValue("USER")
 @Data
-
 public class User extends Account{
     private String mobile;
     private int age;

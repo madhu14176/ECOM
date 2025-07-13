@@ -21,6 +21,8 @@ public abstract class Account {
     private String email;
     @Column(nullable = false)
     private String password;
+    @Column(insertable = false, updatable = false)
+    private String role;
 
 
 }
